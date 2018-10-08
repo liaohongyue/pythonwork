@@ -1,0 +1,13 @@
+ 185775 downstream
+42832094 exonic
+3683246 intergenic
+2064319 intronic
+ 897701 ncRNA_exonic
+ 450094 ncRNA_intronic
+   1480 ncRNA_splicing
+   6522 splicing
+ 342773 upstream
+   4651 upstream;downstream
+5293339 UTR3
+2039287 UTR5
+   4251 UTR5;UTR3

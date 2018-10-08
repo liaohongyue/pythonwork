@@ -1,0 +1,104 @@
+
+RNA-seq/
+├── 01.Fastq_file
+│   ├── 01.rawdata
+│   │   ├── .
+│   │   ├── .
+│   │   ├── SZ_1.fq.gz
+│   │   └── SZ_2.fq.gz
+│   ├── 02.cleandata
+│   │   ├── .
+│   │   ├── .
+│   │   ├── SZ_1.clean.fq.gz
+│   │   └── SZ_2.clean.fq.gz
+│   ├── 03.QC_fastp
+│   │   ├── .
+│   │   ├── .
+│   │   ├── SZ.html
+│   │   └── SZ.json
+│   ├── multiqc_data/
+│   ├── multiqc_plots
+│   │   ├── pdf
+│   │   ├── png
+│   │   └── svg
+│   └── multiqc_report.html
+├── 02.Alignment
+│   ├── 01.sorted_bam
+│   │   ├── alignRaio/
+│   │   ├── .
+│   │   ├── .
+│   │   ├── multiqc_data
+│   │   ├── multiqc_report.html
+│   │   ├── SZ.align.out.sorted.bam
+│   │   └── SZ.align.out.sorted.bam.bai
+│   ├── 02.read_distribution
+│   │   ├── .
+│   │   ├── .
+│   │   ├── mergeData.xls
+│   │   └── SZ.read_distribution.xls
+│   ├── 03.RSeQC
+│   │   ├── geneBody_coverage
+│   │   ├── infer_experiment
+│   │   ├── inner_distance
+│   │   ├── multiqc_data
+│   │   ├── read_duplication
+│   │   └── read_GC
+│   └── 04.bigWig
+│       ├── .
+│       ├── .
+│       ├── SZneg.ucsc.bigWig
+│       └── SZpos.ucsc.bigWig
+├── 04.DiffExp
+│   ├── HN_HZ
+│   │   ├── DEG.HN-HZ.HZ-HighExp.xls
+│   │   ├── DEG.HN-HZ.HZ-LowExp.xls
+│   │   ├── DEG.HN-HZ.stat.xls
+│   │   ├── DEG.HN-HZ..xls
+│   │   └── Raw.HN-HZ..xls
+│   ├── .
+│   ├── .
+│   └── .
+├── 04.kegg-GO
+│   ├── HN_HZ
+│   │   ├── AllExp.GeneOntology.Bp.xls
+│   │   ├── AllExp.GeneOntology.Cc.xls
+│   │   ├── AllExp.GeneOntology.Mf.xls
+│   │   ├── AllExp.GeneOntology.png
+│   │   ├── AllExpKEGG.png
+│   │   ├── AllExp.KEGG.xls
+│   │   ├── HighExp.GeneOntology.Bp.xls
+│   │   ├── HighExp.GeneOntology.Cc.xls
+│   │   ├── HighExp.GeneOntology.Mf.xls
+│   │   ├── HighExp.GeneOntology.png
+│   │   ├── HighExpKEGG.png
+│   │   ├── HighExp.KEGG.xls
+│   │   ├── KeggPathview.AllExp
+│   │   │   ├── .
+│   │   │   ├── .
+│   │   │   ├── hsa05418.pathview.png
+│   │   │   ├── hsa05418.png
+│   │   │   └── hsa05418.xml
+│   │   ├── KeggPathview.HighExp
+│   │   │   ├── .
+│   │   │   ├── .
+│   │   │   ├── hsa05418.pathview.png
+│   │   │   ├── hsa05418.png
+│   │   │   └── hsa05418.xml
+│   │   ├── KeggPathview.LowExp
+│   │   │   ├── .
+│   │   │   ├── .
+│   │   │   ├── hsa05418.pathview.png
+│   │   │   ├── hsa05418.png
+│   │   │   └── hsa05418.xml
+│   │   ├── LowExp.GeneOntology.Bp.xls
+│   │   ├── LowExp.GeneOntology.Cc.xls
+│   │   ├── LowExp.GeneOntology.Mf.xls
+│   │   ├── LowExp.GeneOntology.png
+│   │   ├── LowExpKEGG.png
+│   │   └── LowExp.KEGG.xls
+│   ├── .
+│   ├── .
+│   
+└── RNASeqReport.html
+
+49 directories, 11839 files
