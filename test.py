@@ -7,4 +7,7 @@ str=sorted(data3,key=lambda x:len(x))
 print(str)
 
 print("this is in dev branch")
+print("this is master")
+print("have repeat the bug")
+print("this is dev ")
 
