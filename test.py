@@ -6,6 +6,4 @@ str=sorted(data3,key=lambda x:len(x))
 
 print(str)
 
-print("==========")
-
-print("------------")
+print("this is feature1")
