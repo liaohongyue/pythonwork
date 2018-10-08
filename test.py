@@ -5,3 +5,7 @@ data3=['jkjd','jj','aaaaaa','cccc','iiiii']
 str=sorted(data3,key=lambda x:len(x))
 
 print(str)
+
+print("==========")
+
+print("------------")
