@@ -6,12 +6,9 @@ str=sorted(data3,key=lambda x:len(x))
 
 print(str)
 
-<<<<<<< HEAD
 print("this is  git diff test")
 
 print("this is file in the workspace")
-=======
 print("this is in dev branch")
->>>>>>> github/master
 
 
