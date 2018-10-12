@@ -1,0 +1,5 @@
+param	value
+cmd_line	cuffdiff -o /data/gpfs02/jliu/liaohy/RNA-seq/04.DiffExp/cuffdiff/HN_HZ/ -L HN,HZ -M /data/gpfs01/jliu/Index/hg19_rmsk.gtf -b /data/gpfs01/jliu/Index/hg19.fa -u --no-update-check -p 20 --library-type fr-firststrand /data/gpfs01/jliu/Index/hg19_refGene_2016-10-24.gtf /data/gpfs02/jliu/liaohy/RNA-seq/02.Alignment/01.sorted_bam/HN.align.out.sorted.bam /data/gpfs02/jliu/liaohy/RNA-seq/02.Alignment/01.sorted_bam/HZ.align.out.sorted.bam 
+version	2.2.1
+SVN_revision	4237
+boost_version	104700

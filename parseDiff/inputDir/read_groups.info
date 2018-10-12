@@ -1,0 +1,3 @@
+file	condition	replicate_num	total_mass	norm_mass	internal_scale	external_scale
+/data/gpfs02/jliu/liaohy/RNA-seq/02.Alignment/01.sorted_bam/HN.align.out.sorted.bam	HN	0	1.4072e+07	1.42251e+07	0.94536	1
+/data/gpfs02/jliu/liaohy/RNA-seq/02.Alignment/01.sorted_bam/HZ.align.out.sorted.bam	HZ	0	1.43534e+07	1.42251e+07	1.05782	1
