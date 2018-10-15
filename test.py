@@ -1,15 +1,14 @@
-import re
+from Bio import Seq
+from Bio.Alphabet import IUPAC
+from Bio.SeqRecord import SeqRecord
+from Bio import SeqIO
 
-str='/data/gpfs02/jliu/liaohy/RNA-seq/02.Alignment/01.sorted_bam/HZ.align.out.sorted.bam'
+dan=open("chapter19/hemoglobin-gene.txt").read().strip()
+dan=Seq.Seq(dan,IUPAC.unambiguous_dna)
 
-patern1=re.compile('\/')
-patern2=re.compile('\.')
-
-cutstr=patern1.split(str)
-
-print(repr(cutstr[-1]))
-fileName=patern2.split(repr(cutstr[-1]))
-fileName=fileName[0]
-fileName=fileName[1:]
-
-print(fileName)
+mrna=dan.transcribe()
+protein=mrna.translate()
+protein_record = SeqRecord(protein, id='sp|P69905.2|HBA_HUMAN',description="Hemoglobin subunit alpha, Homo sapiens")
+outfile=open("chapter19/HBA_HUMAN.fasta","w")
+SeqIO.write(protein_record,outfile,"fasta")
+outfile.close()
